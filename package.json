@@ -1,0 +1,29 @@
+{
+  "name": "lang-code-configuration",
+  "version": "8.0.0",
+  "description": "converts a function name and its types to code that can be understood in a specific language",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rehans-Life/lang-code-configuration.git"
+  },
+  "keywords": [
+    "languages"
+  ],
+  "author": "Rehan Tosif",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rehans-Lisfe/lang-code-configuration/issues"
+  },
+  "homepage": "https://github.com/rehans-Life/lang-code-configuration#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "tsup": "^8.0.1"
+  }
+}
